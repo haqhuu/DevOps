@@ -1,0 +1,68 @@
+CHƯƠNG 1: TỔNG QUAN VỀ ĐỀ TÀI
+1.1  Tầm quan trọng của Docker trong quy trình DevOps and Delevoper	
+- Docker đóng vai trò quan trọng trong triển khai và phát hành dự án phần mềm. Dưới đây là một số điểm quan trọng về tầm quan trọng của Docker trong triển khai và phát hành:
++ Đóng gói chương trình với các phụ thuộc: Docker là công cụ cung cấp khả năng đóng gói và chạy chương trình dưới môi trường lỏng lẻo độc lập gọi là Container.
++ Phân phối chương trình nhanh và nhất quán: Docker cho phép nhà phát triển làm việc trong môi trường tiêu chuẩn hóa sử dụng container cục bộ, nó cung cấp các dịch vụ. Sử dụng container tốt cho quy trình làm việc CI/CD.
++ Thuận lợi triển khai và mở rộng quy mô: Nền tảng dựa trên container của Docker cho phép khối lượng công việc có tính linh động cao. Container của Docker có thể chạy trên laptop, máy vật lí hay máy ảo trên hệ thống dữ liệu, trên nhà cung cấp dịch vụ đám mây, hay trên hỗn hợp môi trường. Bản chất linh động và nhẹ nhàng của Docker cũng khiến nó trỏe nên dễ dàng năng động để quản lý khối lượng công việc, mở rộng hoặc loại bỏ các ứng dụng và dịch vụ theo nhu cầu kinh doanh, trong thời gian gần như thực.
++ Chạy nhiều khối lượng công việc hơn trên cùng phần cứng: Docker nhẹ mà nhanh. Nó cung cấp tính khả thi, giải pháp thay thế hiệu quả về mặt chi phí cho các máy ảo dựa trên bộ ảo hóa, nhờ đó bạn có thể sử dụng nhiều dung lnợn máy chủ hơn để đạt được mục tiêu kinh doanh của mình. Docker hoàn hảo cho môi trường mật độ cao và sự triển khai vừa và nhỏ khi bạn cần nhiều tài nguyên với ít tài nguyên hơn.
+Why ?
+1.2 Lý do chọn đề tài 
+- Việc chúng tôi chọn đề tài về “Docker cho vận hành - bảo trì và nhà phatr triển” có thể được lý giải bằng một số lý do sau:
+Khó khăn gặp phải tron quá trình triển khai:
++ Phổ biến và quan trọng: Docker phổ biến và quan trọng trong đội nhóm phát triển và kĩ sư DevOps. Nắm vững kiến thức về chúng là một yêu cầu cơ bản đối với bất kỳ nhà phát triển phần mềm nào.
++ Tính thực tiễn: Việc nghiên cứu và hiểu rõ về Docker mang lại lợi ích lớn cho việc phát triển phần mềm thực tế. Các kỹ thuật và công cụ liên quan đến Docker thường được áp dụng trong các dự án phần mềm thực tế, giúp tăng hiệu quả làm việc với khâu đóng gói và triển khai.
++ Cơ hội nghề nghiệp: Hiểu biết về Docker là một kỹ năng quan trọng cho các kĩ sư DevOps, cần thiết cho nhà phát triển phần mềm. Việc nắm vững kiến thức về chúng có thể tạo ra cơ hội nghề nghiệp tốt trong ngành công nghiệp phần mềm.
++ Hỗ trợ cộng đồng: Docker có một cộng đồng phát triển rất lớn và tích cực. Việc nghiên cứu và chia sẻ kiến thức về chúng có thể góp phần vào việc phát triển và thúc đẩy sự chia sẻ kiến thức trong cộng đồng.
++ Tính hệ thống và linh hoạt:. Việc hiểu biết về cách sử dụng chúng một cách hiệu quả có thể giúp tăng tính linh hoạt và hiệu quả của quá trình phát triển phần mềm.
+1.3 Phạm vi chủ đề
+- Giới thiệu và cơ bản về Docker: Điều này bao gồm giới thiệu về Git là gì, lịch sử phát triển của nó, cách thức hoạt động, cùng với các khái niệm cơ bản như commit, branch, merge, và cách sử dụng GitHub để lưu trữ và quản lý mã nguồn.
+- Cài đặt và cấu hình Docker: Hướng dẫn cài đặt Git trên các hệ điều hành khác nhau và cách cấu hình Git để bắt đầu làm việc.
+- Các lệnh cơ bản của Docker: Hướng dẫn về các lệnh cơ bản như git init, git clone, git add, git commit, git push, git pull, git merge, và git branch để thao tác với mã nguồn.
+- Quản lý phiên bản với Git: Hướng dẫn cách sử dụng Git để quản lý lịch sử phiên bản của mã nguồn, quay lại phiên bản trước đó, xem sự thay đổi giữa các phiên bản, và phục hồi mã nguồn từ các trạng thái trước đó.
+- Hợp tác và quản lý dự án trên GitHub: Giới thiệu về các tính năng của GitHub như Issues, Pull Requests, Projects, và Wikis để hỗ trợ hợp tác và quản lý dự án.
+- Quản lý nhánh (Branching) trong Git: Giới thiệu về cách tạo, quản lý, và sử dụng nhánh trong Git để phát triển tính năng mới, sửa lỗi, và duy trì các phiên bản khác nhau của mã nguồn.
+- Quản lý mã nguồn mở (Open Source) trên GitHub: Hướng dẫn về cách tham gia và đóng góp vào các dự án mã nguồn mở trên GitHub, cũng như việc sử dụng các tính năng của GitHub như Forks, Pull Requests, và Code Reviews.
+- Tối ưu hóa quy trình làm việc với Git và GitHub: Đề xuất các phương pháp và quy trình làm việc hiệu quả khi sử dụng Git và GitHub trong một dự án phần mềm.
+- Tích hợp công cụ và dịch vụ với Git và GitHub: Hướng dẫn cách tích hợp Git và GitHub với các công cụ và dịch vụ khác như IDEs, CI/CD pipelines, và các dịch vụ lưu trữ cloud khác.
+1.4 Mục tiêu đề tài
+-  Hiểu biết sâu sắc về Docker: Mục tiêu chính là hiểu rõ về cách hoạt động của Docker, từ các khái niệm cơ bản đến các tính năng phức tạp như …
+- Áp dụng Docker trong dự án thực tế: Mục tiêu này đặt ra là áp dụng kiến thức về Docker vào một dự án phần mềm thực tế, từ việc: … mới cho đến việc ….
+- Tối ưu hóa quy trình làm việc: Mục tiêu này nhấn mạnh vào việc tìm hiểu và triển khai các quy trình làm việc hiệu quả nhất khi sử dụng Docker, bao gồm các best practices trong việc ….
+- Thúc đẩy hợp tác và sự linh hoạt: Mục tiêu này là tạo điều kiện thuận lợi cho việc hợp tác và sự linh hoạt trong việc phát triển phần mềm, bằng cách sử dụng các tính năng….
+- Nâng cao kỹ năng cá nhân và cộng đồng: Mục tiêu cuối cùng là nâng cao kỹ năng của các thành viên trong nhóm nghiên cứu về việc sử dụng Docker, và đóng góp vào việc chia sẻ kiến thức và kinh nghiệm với cộng đồng thông qua các dự án mã nguồn mở hoặc bài viết hướng dẫn.
+1.5 Tổng quan về quy trinh DevOps
+
+
+
+DevOps .. là tập hợp các phương pháp, công cụ và triết lý văn hóa mà tự động hóa và tích hợp các quy trình giữa nhóm phát triển phần mềm và nhóm vận hành. Nó nhấn mạnh việc trao quyền cho nhóm, giao tiếp và cộng tác giữa các nhóm cũng như tự động hóa công nghệ.
+Vòng đời devOps: Vì tính chất liên tục của DevOps, Người thực hành sửa dụng vòng lặp vô cực để hiển thị các giai đoạn của vòng đời DevÓp liên quan với nhau ntn. Mặc dù có vẻ như diễn ra tuần tự nhưng vòng lặp tượng trưng cho nhu cầu hợp tác liên tục và cải tiến lặp đi lặp lại trong toàn bộ vòng đời:
+Discover: Xây dựng phần mềm là một môn thể thao đồng đội. Để chuẩn bị cho sprint sắp tới, các nhóm phải hội thảo để khám phá, sắp xếp và ưu tiên các ý tưởng. Ý tưởng phải phù hợp với mục tiêu chiến lược và mang lại tác động cho khách hàng. Agile có thể giúp hướng dẫn các nhóm DevOps.
+Plan: Các nhóm DevOps nên áp dụng các phương pháp thực hành linh hoạt để cải thiện tốc độ và chất lượng. Agile là một cách tiếp cận lặp đi lặp lại để quản lý dự án và phát triển phần mềm, giúp các nhóm chia công việc thành những phần nhỏ hơn để mang lại giá trị gia tăng.
+Build: Git là một hệ thống kiểm soát phiên bản mã nguồn mở và miễn phí. Nó cung cấp hỗ trợ tuyệt vời cho việc phân nhánh, hợp nhất và viết lại lịch sử kho lưu trữ, dẫn đến nhiều quy trình làm việc và công cụ sáng tạo và mạnh mẽ cho quy trình xây dựng phát triển.
+Test: Tích hợp liên tục (CI) cho phép nhiều nhà phát triển đóng góp vào một kho lưu trữ chung duy nhất. Khi các thay đổi mã được hợp nhất, các thử nghiệm tự động được chạy để đảm bảo tính chính xác trước khi tích hợp. Việc hợp nhất và thử nghiệm mã thường giúp các nhóm phát triển có được sự đảm bảo về chất lượng và khả năng dự đoán của mã sau khi triển khai.
+Deploy: Triển khai Triển khai liên tục (CD) cho phép các nhóm phát hành các tính năng thường xuyên vào sản xuất theo cách tự động. Các nhóm cũng có tùy chọn triển khai với cờ tính năng, cung cấp mã mới cho người dùng một cách đều đặn và có phương pháp thay vì tất cả cùng một lúc. Cách tiếp cận này cải thiện tốc độ, năng suất và tính bền vững của các nhóm phát triển phần mềm.
+Operate: Quản lý việc cung cấp dịch vụ CNTT từ đầu đến cuối cho khách hàng. Điều này bao gồm các hoạt động liên quan đến thiết kế, triển khai, cấu hình, triển khai và bảo trì tất cả cơ sở hạ tầng CNTT hỗ trợ các dịch vụ của tổ chức.
+Observe: Nhanh chóng xác định và giải quyết các vấn đề ảnh hưởng đến thời gian hoạt động, tốc độ và chức năng của sản phẩm. Tự động thông báo cho nhóm của bạn về những thay đổi, hành động có rủi ro cao hoặc lỗi để bạn có thể tiếp tục duy trì dịch vụ.
+Continuous feedback: Các nhóm DevOps nên đánh giá từng bản phát hành và tạo báo cáo để cải thiện các bản phát hành trong tương lai. Bằng cách thu thập phản hồi liên tục, các nhóm có thể cải thiện quy trình của mình và kết hợp phản hồi của khách hàng để cải thiện bản phát hành tiếp theo.
+
+1.6 Tầm quan trọng của giai đoạn triển khai trong DevOps
+Trong giai đoạn DevOps, triển khai là rất quan trọng vì các lý do sau:
+cho phép các nhóm nhanh chóng cung cấp các tính năng và cải tiến mới cho người dùng, giảm thời gian đưa sản phẩm và bản cập nhật mới ra thị trường;
+cho phép các nhóm nhận phản hồi từ người dùng và các bên liên quan nhanh hơn, cho phép họ thực hiện các điều chỉnh cần thiết cho phần mềm và cải thiện chất lượng của phần mềm;
+thường có phạm vi nhỏ hơn, giảm nguy cơ đưa các lỗi hoặc sự cố lớn vào phần mềm. Điều này cho phép các nhóm phát hiện và giải quyết các vấn đề sớm hơn trong quá trình phát triển, trước khi chúng trở thành các vấn đề lớn hơn;
+yêu cầu sự hợp tác chặt chẽ giữa các nhóm phát triển, thử nghiệm và vận hành, thúc đẩy giao tiếp và hợp tác tốt hơn giữa các phòng ban;
+tạo ra văn hóa cải tiến liên tục, khuyến khích các nhóm liên tục lặp lại và cải thiện phần mềm dựa trên phản hồi từ người dùng và các bên liên quan.
+
+1.7 Các khó khăn trong giai đoạn ….
+Cài đặt trên máy chủ, m áy khách
+		Cài đặt trên các h ệ điều hành khác 
+Lựa chọn dịch vụ triển khai
+Cấu hình: Thiết lập sản phẩm mới đòi hỏi phải cấu hình các thông số cẩn thận để phù hợp với các yêu cầu của sản phẩm.
+Cài đặt và liên k ết giữa các thành phần
+
+dtc2154801031005
+  "ConnectionStrings": {
+    "SchoolContext": "Server=(localdb)\MSSqlLocalDb;Database=ContosoUniversity1;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+
+
